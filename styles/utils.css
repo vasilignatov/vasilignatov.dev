@@ -4,22 +4,80 @@
     text-decoration: none;
     letter-spacing: -0.05rem;
     background-color: var(--color-rose);
-    color: var(--color-rose);
+    color: var(--color-light);
     padding: 0.5em 1em;
     border-radius: 6px;
     box-shadow: 0 10px 20px rgba(255, 29, 72, 0.5),
-        0 6px 6px rgba(255, 29, 72, 0.5), 0 0 100px -10px 
-        var(--color-rose);
+        0 6px 6px rgba(255, 29, 72, 0.5), 0 0 100px -10px var(--color-rose);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 14px 28px rgba(255, 29, 72, 0.25),
-        0 10px 10px rgba(255, 29, 72, 0.22), 0 0 120px -10px 
-        var(--color-rose);
+        0 10px 10px rgba(255, 29, 72, 0.22), 0 0 120px -10px var(--color-rose);
 }
 
-/* .container {
+.section {
+    margin-top: 5rem;
+}
 
-} */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+    border: solid 1px red;
+}
+
+
+@media screen and (min-width: 475px) {
+    .container {
+        max-width: 475px;
+
+    }
+}
+
+
+@media screen and (min-width: 640px) {
+    .container {
+        max-width: 475px;
+
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .section {
+        margin-top: 10rem;
+    }
+    
+
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+
+    }
+
+}
