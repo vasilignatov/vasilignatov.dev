@@ -3,6 +3,7 @@
 @import url('components/hero.css');
 @import url('components/about.css');
 @import url('components/featured.css');
+@import url('components/project.css');
 @import url('utils.css');
 
 :root {
