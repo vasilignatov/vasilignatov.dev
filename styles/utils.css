@@ -4,7 +4,7 @@
     text-decoration: none;
     letter-spacing: -0.05rem;
     background-color: var(--color-rose);
-    color: var(--color-light);
+    color: #f1f5f9;
     padding: 0.5em 1em;
     border-radius: 6px;
     box-shadow: 0 10px 20px rgba(255, 29, 72, 0.5),

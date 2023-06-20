@@ -11,6 +11,7 @@ export const darkMode = () => {
                 return localStorage.setItem('vipp-theme', 'light-mode');
             }
             localStorage.removeItem('vipp-theme');
+            document.body.removeAttribute('class');
         })
     })
 }
