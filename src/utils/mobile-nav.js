@@ -5,17 +5,25 @@ export const mobileNav = () => {
 
     let isMobileNavOpen = false;
 
-
-    menuIcon.addEventListener('click', (ev) => {
-        isMobileNavOpen = !isMobileNavOpen;
-
-        if (isMobileNavOpen) {
-            document.body.style.overflowY = 'hidden';
-            menu.style.display = 'flex';
-        } else {
+    window.addEventListener('resize', (ev) => {
+        console.log('change', ev.target);
+        if (window.matchMedia("(min-width: 768px)").matches) {
             document.body.style.overflowY = 'auto';
             menu.style.display = 'none';
         }
+    })
+
+    menuIcon.addEventListener('click', (ev) => {
+        // only execute when mo
+            isMobileNavOpen = !isMobileNavOpen;
+
+            if (isMobileNavOpen) {
+                document.body.style.overflowY = 'hidden';
+                menu.style.display = 'flex';
+            } else {
+                document.body.style.overflowY = 'auto';
+                menu.style.display = 'none';
+            }
     });
 
     navLinks.forEach(link => {
