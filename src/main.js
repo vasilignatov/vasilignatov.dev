@@ -1,3 +1,6 @@
-import { mobileNav } from './utils/monile-nav.js';
+import { mobileNav } from './utils/mobile-nav.js';
+import { darkMode } from './utils/dark-mode.js';
+
 
 mobileNav();
+darkMode();

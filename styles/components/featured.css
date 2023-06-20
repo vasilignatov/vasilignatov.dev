@@ -117,7 +117,7 @@
 @media screen and (min-width: 640px) {
 
     .featured__img-container {
-        margin-top: 1rem;
+        margin-top: 2rem;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
         gap: 1rem;
