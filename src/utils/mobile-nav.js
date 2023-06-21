@@ -6,7 +6,6 @@ export const mobileNav = () => {
     let isMobileNavOpen = false;
 
     window.addEventListener('resize', (ev) => {
-        console.log('change', ev.target);
         if (window.matchMedia("(min-width: 768px)").matches) {
             document.body.style.overflowY = 'auto';
             menu.style.display = 'none';
