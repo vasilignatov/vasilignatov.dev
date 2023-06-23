@@ -31,12 +31,12 @@
 }
 
 .loading {
-    filter: blur(40px) grayscale(100%);
+    filter: blur(34px) grayscale(100%);
 }
 
 .loaded {
     filter: blur(0) grayscale(0);
-    transition: 0.7s ease-in-out;
+    transition: 0.6s ease-in-out;
 }
 
 
