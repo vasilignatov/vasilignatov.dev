@@ -7,7 +7,9 @@
 .about__content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
+    max-width: 700px;
 }
 
 .about__title {
@@ -31,15 +33,28 @@
 }
 
 .about__ul {
+    max-width: 100%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
     gap: 1em;
-    list-style-type: '\1F44D';
+    list-style: none;
     padding-left: 1em;
     flex: 1;
 }
 
+.about__ul li {
+    height: 70px;
+    align-self: center;
+}
+.about__ul li img {
+    /* background-color: white; */
+    height: 100%;
+}
+
 .about__ul-container {
+    align-items: center;
     display: flex;
 }
 
