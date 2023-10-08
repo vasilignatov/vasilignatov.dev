@@ -100,7 +100,8 @@
             'image1 content1'
             'content2 image2'
             'image3 content3'
-            'content4 image4';
+            'content4 image4'
+            'image5 content5';
         place-items: center;
     }
 
@@ -187,7 +188,7 @@
     .projects__title {
         font-size: var(--size-4xl);
     }
-    
+
     .projects__description {
         font-size: var(--size-lg);
     }
@@ -197,11 +198,11 @@
         font-size: var(--size-base);
         margin: 1.5rem 0;
     }
-    
+
     .projects__proj-btn {
         font-size: var(--size-base);
     }
-    
+
     .projects__proj-subtitle {
         font-size: var(--size-xl);
     }
@@ -222,11 +223,11 @@
     .projects__proj-description2 {
         font-size: var(--size-lg);
     }
-    
+
     .projects__proj-btn {
         font-size: var(--size-lg);
     }
-    
+
     .projects__proj-subtitle {
         font-size: var(--size-2xl);
     }
