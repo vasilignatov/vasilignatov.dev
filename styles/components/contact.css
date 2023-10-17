@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     gap: 1rem;
+    padding-top: 2rem;
 }
 
 .contact__title {

@@ -63,6 +63,12 @@
     display: none;
 }
 
+.git-link {
+    text-decoration: none;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
 /* Xtra Small */
 @media screen and (min-width: 475px) {
     .projects__title {
